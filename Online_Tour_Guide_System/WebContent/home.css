@@ -1,0 +1,110 @@
+@charset "ISO-8859-1";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.header{
+  background: black;
+  padding:10px;
+}
+
+p{
+	font-family:'Courier New', monospace;
+	font-size: 30px;
+	color: white;
+	
+}
+
+.navbar {
+  overflow: hidden;
+  background-color:black;
+  border:1px solid white;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+
+.navbar a {
+  font-family:'Courier New', monospace;
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a.right {
+  float: right;
+}
+
+.navbar a:hover {
+  background-color: LightGrey;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
+.right{
+	float:right;
+}
+
+ .footer{
+  padding: 20px;
+  text-align: left;
+  background: black;
+  color:white;
+  font-family:'Courier New', monospace;
+  font-size:11px;
+}
+
+
+.theme{
+	position:absolute;
+	top:300px;
+	width:100%;
+   background: rgb(0, 0, 0); /* Fallback color */
+   background: rgba(0, 0, 0, 0.8); /* Black background with 0.5 opacity */
+   color: #f1f1f1;
+   padding:30px 20px;
+   font-size:35px;
+   font-family:'Courier New', monospace;
+   font-weight:bold;
+   text-align:center;
+}
+
+
+
+
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
